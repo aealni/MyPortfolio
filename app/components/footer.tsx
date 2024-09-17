@@ -24,10 +24,10 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="/rss"
+            href="https://drive.google.com/file/d/1r4Dz5ePkwHXmOAxqtvBQ-GeH2lUSQzuV/preview"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">rss</p>
+            <p className="ml-2 h-7">resume</p>
           </a>
         </li>
         <li>
