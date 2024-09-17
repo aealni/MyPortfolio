@@ -10,13 +10,13 @@ export default function Page() {
         {`This website is in progress :)`}
       </p>
       <iframe
-        src="app/components/pdfs/resume_JL.pdf"
-        width="610"
+        src="https://archive.org/details/resume_JL"
+        width="650"
         height="740"
         style={{ border: 'none' }}
         title="Resume PDF"
       >
-        This browser does not support PDFs. Please download the PDF to view it: <a href="app/components/pdfs/resume_JL.pdf">Download PDF</a>.
+        This browser does not support PDFs. Please download the PDF to view it: <a href="https://archive.org/details/resume_JL">Download PDF</a>.
       </iframe>
     </section>
   )
