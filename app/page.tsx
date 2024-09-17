@@ -9,15 +9,7 @@ export default function Page() {
       <p className="mb-4">
         {`This website is in progress :)`}
       </p>
-      <iframe
-        src="https://archive.org/embed/resume_JL"
-        width="650"
-        height="740"
-        style={{ border: 'none' }}
-        title="Resume PDF"
-      >
-        This browser does not support PDFs. Please download the PDF to view it: <a href="https://archive.org/details/resume_JL">Download PDF</a>.
-      </iframe>
+      <iframe src="https://drive.google.com/file/d/1r4Dz5ePkwHXmOAxqtvBQ-GeH2lUSQzuV/preview" width="640" height="480" allow="autoplay"></iframe>
     </section>
   )
 }
