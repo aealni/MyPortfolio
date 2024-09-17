@@ -9,7 +9,13 @@ export default function Page() {
       <p className="mb-4">
         {`This website is in progress :)`}
       </p>
-      <object width="610" height="740" data="app/components/pdfs/resume_JL.pdf"></object>
+      <embed
+        src="app/components/pdfs/resume_JL.pdf"
+        width="610"
+        height="740"
+        type="application/pdf"
+        style={{ border: 'none' }}
+      />
     </section>
   )
 }
