@@ -13,7 +13,7 @@ export default function Page() {
         src="app/components/pdfs/resume_JL.pdf"
         width="610"
         height="740"
-        style="border: none;"
+        style={{ border: 'none' }}
         title="Resume PDF"
       >
         This browser does not support PDFs. Please download the PDF to view it: <a href="app/components/pdfs/resume_JL.pdf">Download PDF</a>.
