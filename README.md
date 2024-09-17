@@ -1,1 +1,2 @@
-website time
+Hi!
+This is my portfolio :)

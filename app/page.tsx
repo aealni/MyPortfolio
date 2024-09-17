@@ -12,7 +12,7 @@ export default function Page() {
         {`I like borgar`}
       </p>
       <p>
-        {`To do: figure out how to make resume tab work, make the new page, maybe add a blog page, figure out wtb the copyright is for, add images?`}
+        {`To do: make this website work locally, figure out how to make resume tab work, make the new page, maybe add a blog page, add images?`}
       </p>
     </section>
   )
