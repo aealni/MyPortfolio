@@ -8,8 +8,7 @@ export default function Page() {
       </h1>
       <p className="mb-4">
         {`This website is in progress :)`}
-        <embed src="aealni/aealni/app/components/pdfs/resume_JL.pdf" width="500" height="375" 
- type="application/pdf"></embed>
+        <object width="610" height="740" data="aealni/aealni/app/components/pdfs/resume_JL.pdf"></object>
       </p>
     </section>
   )
