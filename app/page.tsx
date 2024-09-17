@@ -8,8 +8,8 @@ export default function Page() {
       </h1>
       <p className="mb-4">
         {`This website is in progress :)`}
-        <object width="610" height="740" data="aealni/aealni/app/components/pdfs/resume_JL.pdf"></object>
       </p>
+      <object width="610" height="740" data="aealni/aealni/app/components/pdfs/resume_JL.pdf"></object>
     </section>
   )
 }
