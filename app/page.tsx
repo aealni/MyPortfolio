@@ -9,7 +9,7 @@ export default function Page() {
       <p className="mb-4">
         {`This website is in progress :)`}
       </p>
-      <object width="610" height="740" data="aealni/aealni/app/components/pdfs/resume_JL.pdf"></object>
+      <object width="610" height="740" data="app/components/pdfs/resume_JL.pdf"></object>
     </section>
   )
 }
