@@ -9,9 +9,6 @@ export default function Page() {
       <p className="mb-4">
         {`This website is in progress :)`}
       </p>
-      <div className="my-8">
-        <ProjectsPosts />
-      </div>
     </section>
   )
 }
