@@ -10,7 +10,7 @@ export default function Page() {
         {`This website is in progress :)`}
       </p>
       <iframe
-        src="https://github.com/aealni/aealni/blob/536c67a795258d15225f05b5af236864abcbbaa1/app/components/pdfs/resume_JL.pdf"
+        src="https://archive.org/details/teacher-shortage"
         width="610"
         height="740"
         style={{ border: 'none' }}
