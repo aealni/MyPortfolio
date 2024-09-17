@@ -4,7 +4,7 @@ import { getProjectsPosts } from 'app/projects/utils'
 export async function GET() {
   let allProjects = await getProjectsPosts()
 
-  const itemsXml = allProjectss
+  const itemsXml = allProjects
     .sort((a, b) => {
       if (new Date(a.metadata.publishedAt) > new Date(b.metadata.publishedAt)) {
         return -1
