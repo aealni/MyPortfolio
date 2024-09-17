@@ -16,7 +16,7 @@ export default function Page() {
         style={{ border: 'none' }}
         title="PDF View"
       >
-      This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/username/repository/raw/main/path/to/yourfile.pdf">Download PDF</a>.
+      This browser does not support PDFs. Please download the PDF to view it: <a href="https://drive.google.com/file/d/1r4Dz5ePkwHXmOAxqtvBQ-GeH2lUSQzuV/view">Download PDF</a>.
       </iframe>
     </section>
   )
