@@ -10,7 +10,7 @@ export default function Page() {
         {`This website is in progress :)`}
       </p>
       <iframe
-        src="https://archive.org/details/teacher-shortage"
+        src="https://drive.google.com/file/d/1r4Dz5ePkwHXmOAxqtvBQ-GeH2lUSQzuV/view?usp=sharing"
         width="610"
         height="740"
         style={{ border: 'none' }}
