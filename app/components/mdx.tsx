@@ -93,6 +93,8 @@ let components = {
   h4: createHeading(4),
   h5: createHeading(5),
   h6: createHeading(6),
+  h7: createHeading(7),
+  h8: createHeading(8),
   Image: RoundedImage,
   a: CustomLink,
   code: Code,
