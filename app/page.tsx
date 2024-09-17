@@ -1,4 +1,3 @@
-import { ProjectsPosts } from 'app/components/posts'
 
 export default function Page() {
   return (
@@ -9,7 +8,9 @@ export default function Page() {
       <p className="mb-4">
         {`This website is in progress :)`}
       </p>
-      <iframe src="https://drive.google.com/file/d/1r4Dz5ePkwHXmOAxqtvBQ-GeH2lUSQzuV/preview" width="640" height="830" allow="autoplay"></iframe>
+      <p>
+        {`I like borgar`}
+      </p>
     </section>
   )
 }

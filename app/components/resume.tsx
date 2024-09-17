@@ -6,7 +6,9 @@ export const metadata = {
   export default function Page() {
     return (
       <section>
-        <embed src="resume_JL.pdf" width="800px" height="2100px" />
+        <iframe src="https://drive.google.com/file/d/1r4Dz5ePkwHXmOAxqtvBQ-GeH2lUSQzuV/preview" width="640" height="830" allow="autoplay"></iframe>
       </section>
     )
   }
+
+  
