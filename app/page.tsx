@@ -9,15 +9,13 @@ export default function Page() {
       <p className="mb-4">
         {`This website is in progress :)`}
       </p>
-      <iframe
-        src="https://drive.google.com/file/d/1r4Dz5ePkwHXmOAxqtvBQ-GeH2lUSQzuV/view"
+      <embed
+        src="app/components/pdfs/resume_JL.pdf"
         width="610"
         height="740"
-        style={{ border: 'none' }}
-        title="PDF View"
-      >
-      This browser does not support PDFs. Please download the PDF to view it: <a href="https://drive.google.com/file/d/1r4Dz5ePkwHXmOAxqtvBQ-GeH2lUSQzuV/view">Download PDF</a>.
-      </iframe>
+        type="application/pdf"
+        style="border: none;"
+      />
     </section>
   )
 }
