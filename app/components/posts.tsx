@@ -25,7 +25,7 @@ export function ProjectsPosts() {
               <p className="text-neutral-600 dark:text-neutral-400 w-[200px] tabular-nums">
                 {formatDate(post.metadata.publishedAt, false)}
               </p>
-              <p className="text-neutral-900 dark:text-neutral-100 w-[600px] tracking-tight">
+              <p className="text-neutral-900 dark:text-neutral-100 w-[500px] tracking-tight">
                 {post.metadata.title}
               </p>
             </div>
