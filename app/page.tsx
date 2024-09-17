@@ -9,13 +9,15 @@ export default function Page() {
       <p className="mb-4">
         {`This website is in progress :)`}
       </p>
-      <embed
+      <iframe
         src="app/components/pdfs/resume_JL.pdf"
         width="610"
         height="740"
-        type="application/pdf"
         style="border: none;"
-      />
+        title="Resume PDF"
+      >
+        This browser does not support PDFs. Please download the PDF to view it: <a href="app/components/pdfs/resume_JL.pdf">Download PDF</a>.
+      </iframe>
     </section>
   )
 }
