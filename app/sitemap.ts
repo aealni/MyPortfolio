@@ -1,17 +1,17 @@
-import { getProjectsPosts } from 'app/projects/utils'
+import { getReportsPosts } from 'app/reports/utils'
 
 export const baseUrl = 'https://aealni.vercel.app'
 
 export default async function sitemap() {
-  let projects = getProjectsPosts().map((post) => ({
-    url: `${baseUrl}/projects/${post.slug}`,
+  let reports = getReportsPosts().map((post) => ({
+    url: `${baseUrl}/reports/${post.slug}`,
     lastModified: post.metadata.publishedAt,
   }))
 
-  let routes = ['', '/projects'].map((route) => ({
+  let routes = ['', '/reports'].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date().toISOString().split('T')[0],
   }))
 
-  return [...routes, ...projects]
+  return [...routes, ...reports]
 }

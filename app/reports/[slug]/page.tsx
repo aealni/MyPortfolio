@@ -1,10 +1,10 @@
 import { notFound } from 'next/navigation'
 import { CustomMDX } from 'app/components/mdx'
-import { formatDate, getProjectsPosts } from 'app/projects/utils'
+import { formatDate, getReportsPosts } from 'app/reports/utils'
 import { baseUrl } from 'app/sitemap'
 
 export async function generateStaticParams() {
-  let posts = getProjectsPosts()
+  let posts = getReportsPosts()
 
   return posts.map((post) => ({
     slug: post.slug,
@@ -12,7 +12,7 @@ export async function generateStaticParams() {
 }
 
 export function generateMetadata({ params }) {
-  let post = getProjectsPosts().find((post) => post.slug === params.slug)
+  let post = getReportsPosts().find((post) => post.slug === params.slug)
   if (!post) {
     return
   }
@@ -35,7 +35,7 @@ export function generateMetadata({ params }) {
       description,
       type: 'article',
       publishedTime,
-      url: `${baseUrl}/projects/${post.slug}`,
+      url: `${baseUrl}/reports/${post.slug}`,
       images: [
         {
           url: ogImage,
@@ -51,8 +51,8 @@ export function generateMetadata({ params }) {
   }
 }
 
-export default function Projects({ params }) {
-  let post = getProjectsPosts().find((post) => post.slug === params.slug)
+export default function Reports ({ params }) {
+  let post = getReportsPosts().find((post) => post.slug === params.slug)
 
   if (!post) {
     notFound()
@@ -66,7 +66,7 @@ export default function Projects({ params }) {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'ProjectsPosting',
+            '@type': 'ReportsPosting',
             headline: post.metadata.title,
             datePublished: post.metadata.publishedAt,
             dateModified: post.metadata.publishedAt,
@@ -74,7 +74,7 @@ export default function Projects({ params }) {
             image: post.metadata.image
               ? `${baseUrl}${post.metadata.image}`
               : `/og?title=${encodeURIComponent(post.metadata.title)}`,
-            url: `${baseUrl}/projects/${post.slug}`,
+            url: `${baseUrl}/reports/${post.slug}`,
             author: {
               '@type': 'Person',
               name: 'My Portfolio',
