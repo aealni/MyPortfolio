@@ -9,13 +9,15 @@ export default function Page() {
       <p className="mb-4">
         {`This website is in progress :)`}
       </p>
-      <embed
-        src="app/components/pdfs/resume_JL.pdf"
+      <iframe
+        src="https://github.com/aealni/aealni/blob/536c67a795258d15225f05b5af236864abcbbaa1/app/components/pdfs/resume_JL.pdf"
         width="610"
         height="740"
-        type="application/pdf"
         style={{ border: 'none' }}
-      />
+        title="PDF View"
+      >
+      This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/username/repository/raw/main/path/to/yourfile.pdf">Download PDF</a>.
+      </iframe>
     </section>
   )
 }
