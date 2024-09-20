@@ -10,9 +10,9 @@ const navItems = {
   '/reports': {
     name: 'reports',
   },
-  '/resume_JL.pdf': {
-    name: 'resume',
-  },
+  //'/resume_JL.pdf': {
+  //  name: 'resume',
+  //},
 }
 
 export function Navbar() {
