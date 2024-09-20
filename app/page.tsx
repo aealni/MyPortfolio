@@ -9,10 +9,7 @@ export default function Page() {
         {`This website is in progress :)`}
       </p>
       <p>
-        {`I like borgar`}
-      </p>
-      <p>
-        {`To do: make this website work locally, figure out how to make resume tab work, make the new page, maybe add a blog page, add images?`}
+        {`Take a look at my reports for now`}
       </p>
     </section>
   )
