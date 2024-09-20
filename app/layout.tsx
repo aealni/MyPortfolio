@@ -14,6 +14,9 @@ export const metadata: Metadata = {
     default: 'Jeffrey Lu',
     template: '%s | Jeffrey Lu',
   },
+  icons: {
+    icon: '/favicon.ico',
+  },
   description: 'This is my portfolio.',
   openGraph: {
     title: 'My Portfolio',
