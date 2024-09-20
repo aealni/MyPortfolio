@@ -10,7 +10,7 @@ const navItems = {
   '/reports': {
     name: 'reports',
   },
-  '/resume_JL': {
+  '/resume_JL.pdf': {
     name: 'resume',
   },
 }
