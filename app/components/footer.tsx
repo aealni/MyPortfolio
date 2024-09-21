@@ -23,7 +23,6 @@ export default function Footer() {
           <a
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
-            target="_blank"
             href="https://aealni.vercel.app/resume_JL.pdf"
           >
             <ArrowIcon />
